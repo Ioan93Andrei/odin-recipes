@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dosis:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dosis:wght@400;500&family=Kalam:wght@300;400&display=swap');
+
 body{
+    background-image:url('img/background.jpg');
+    background-size: cover;
     width: 100%;
+    font-family: 'Kalam', cursive;
 }
 
 h1{
@@ -14,14 +20,26 @@ p, ul, ol{
 
 a{
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #000;
+}
+
+a:hover{
+    color: #AA8B56;
+    text-shadow: 2px 2px 2px darkgray;
 }
 
 img {
     width: 200px;
     height: auto;
+    margin-bottom: 0.1em;
+}
+
+footer{
+    padding-top: 0.5em;
+    border-top: 2px solid black;
+    text-align: center;
 }
 
 .wrapper{
@@ -34,11 +52,24 @@ img {
     grid-template-columns: 1fr;
 }
 
-#ingredients{
-    margin-top: 1.5em;
+#main-wrapper{
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 60%;
+    height: 35em;
+    margin-top: 3%;
+    margin-left: 20%;
+    border: 0.5em solid black;
+    border-radius: 20px;
+    text-align: center;
 }
 
-footer{
-    border-top: 2px solid black;
-    text-align: center;
+#title{
+    font-size: 4em;
+    font-family: 'Clicker Script', cursive;
+}
+
+#section{
+    margin-top: 1.5em;
+    color: #395144;
 }
