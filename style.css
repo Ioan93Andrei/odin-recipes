@@ -22,7 +22,7 @@ a{
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
-    color: #000;
+    color: #395144;
 }
 
 a:hover{
@@ -59,7 +59,7 @@ footer{
     height: 35em;
     margin-top: 3%;
     margin-left: 20%;
-    border: 0.5em solid black;
+    border: 0.2em dashed #395144;
     border-radius: 20px;
     text-align: center;
 }
