@@ -27,7 +27,7 @@ a{
 
 a:hover{
     color: #AA8B56;
-    text-shadow: 2px 2px 2px darkgray;
+    text-shadow: 2px 2px 2px rgba(170, 139, 86, 0.2);
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 
 footer{
     padding-top: 0.5em;
-    border-top: 2px solid black;
+    border-top: 2px dashed #395144;
     text-align: center;
 }
 
@@ -54,12 +54,11 @@ footer{
 
 #main-wrapper{
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 60%;
-    height: 35em;
+    height: 30em;
     margin-top: 3%;
     margin-left: 20%;
-    border: 0.2em dashed #395144;
     border-radius: 20px;
     text-align: center;
 }
@@ -72,4 +71,21 @@ footer{
 #section{
     margin-top: 1.5em;
     color: #395144;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 3px rgba(170, 139, 86, 0.2);
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.5em;
+}
+
+.card-text{
+    font-size: 1em;
 }
